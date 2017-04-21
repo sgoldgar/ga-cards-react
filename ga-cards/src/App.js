@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {IndexLink} from 'react-router';
 import {Link} from 'react-router';
 import './index.css';
@@ -21,6 +21,9 @@ class App extends Component {
             <li><Link to="/addCard" activeClassName="active" className="link">Add a New Card</Link></li>
             <li><Link to="/about" activeClassName="active" className="link">About</Link></li>
           </nav>
+          <div className="content">
+            {this.props.children}
+          </div>
 
           <footer>
             <p>Made wit <span className="heart">♥︎</span> at General Assembly</p>

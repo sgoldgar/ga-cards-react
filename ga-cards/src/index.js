@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, hashHistory, IndexRoute} from 'react-router';
 import App from './App';
-import Home from './Home';
-import Contact from './AddCard';
-import About from './About';
-import NotFound from './NotFound';
+import Home from './components/Home';
+import AddCard from './components/AddCard';
+import About from './components/About';
+import NotFound from './components/NotFound';
 import './index.css';
 
 ReactDOM.render(
