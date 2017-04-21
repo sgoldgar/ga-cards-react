@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
-import Card from './components/Card';
+import Card from './Card';
+import '../index.css';
+
 
 class Home extends Component{
   render(){
     return(
         <section id="cards" class="container-fluid">
           <div class="row">
-            {Card}
+            <Card/>
           </div>
         </section>
     )

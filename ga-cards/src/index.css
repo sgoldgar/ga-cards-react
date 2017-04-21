@@ -3,3 +3,67 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.container {
+  margin: 1.5rem;
+}
+
+p {
+  font-size: 1.7rem;
+  line-height: 150%;
+}
+header {
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+  margin-bottom: 1.618rem;
+}
+
+header.navbar {
+  border-radius: 0;
+}
+
+h1 {
+  font-weight: bold;
+  letter-spacing: -2px;
+  max-width: 100px;
+}
+
+.row {
+  margin: 0;
+}
+
+/*Nav Bar*/
+
+nav.tabs {
+  max-width: 55%;
+}
+
+nav.tabs li{
+  display:inline;
+  list-style-type: none;
+}
+nav.tabs a {
+  display: inline-block;
+  color: black;
+  background-color: white;
+  padding: 4px 20px;
+  margin-bottom: 24px;
+  margin-right: 1px;
+}
+nav.tabs a.active {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/*Footer*/
+footer {
+  text-align: center;
+  margin-top: 5rem;
+  color: silver;
+  font-size: 1.3rem;
+}
+footer .heart {
+  color:#cf2e31;
+}

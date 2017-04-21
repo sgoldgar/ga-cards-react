@@ -1,0 +1,29 @@
+.card {
+  background: #231e1e;
+  border-color: black;
+  color: white;
+  padding: 1.7rem;
+  min-height: 30rem;
+  position: relative;
+  max-width: 300px;
+  margin-bottom: 1rem;
+}
+
+.card h4 {
+  font-size: 2rem;
+}
+.card h6 {
+  position: absolute;
+  font-size: 1.2rem;
+  margin-top: 1.618rem;
+  opacity: 0.2;
+  bottom: 0.618rem;
+  left: 1rem;
+}
+.card h6:after {
+  font-size: 60%;
+  margin-left: 1px;
+}
+.card:hover {
+  cursor: pointer;
+}

@@ -26,7 +26,7 @@ class App extends Component {
           </div>
 
           <footer>
-            <p>Made wit <span className="heart">♥︎</span> at General Assembly</p>
+            <p>Made with <span className="heart">♥︎</span> at General Assembly</p>
           </footer>
 
         </div>
