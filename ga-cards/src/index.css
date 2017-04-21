@@ -25,17 +25,35 @@ header.navbar {
 h1 {
   font-weight: bold;
   letter-spacing: -2px;
-  max-width: 100px;
+  max-width: 170px;
+  padding: 10px 10px 10px 5px;
+  border: 1px solid black;
 }
 
 .row {
-  margin: 0;
+  margin-left: 5em;
+  margin-top: 5%;
+  width: 100%;
+}
+
+.about{
+  margin-left: 30em;
+  max-width: 30em;
+}
+
+.addCard{
+  margin-left: 28em;
+}
+
+.add-card input{
+  border: 1px solid black;
 }
 
 /*Nav Bar*/
 
 nav.tabs {
   max-width: 55%;
+  margin-left: 40%;
 }
 
 nav.tabs li{
@@ -68,6 +86,11 @@ nav.tabs a.active {
   position: relative;
   width: 300px;
   margin-bottom: 1rem;
+}
+
+.front img{
+  margin: 20% 15%;
+  max-width: 200px;
 }
 
 .card h4 {
@@ -109,6 +132,10 @@ footer .heart {
   color:#cf2e31;
 }
 
+footer p {
+  margin-left: 5em;
+}
+
 /*Card Flip*/
 /* entire container, keeps perspective */
 .flip-container {
@@ -128,7 +155,6 @@ footer .heart {
 .flipper {
 	transition: 0.6s;
 	transform-style: preserve-3d;
-
 	position: relative;
 }
 

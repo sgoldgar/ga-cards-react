@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class About extends Component{
   render(){
     return(
-      <div>
+      <div className="about">
         <p>To start the game, each player draws ten White Cards.</p>
         <p>The person who most recently pooped begins as the Card Czar and plays a Black Card. The Card Czar reads the question or fill-in-the-blank phrase on the Black Card out loud.</p>
         <p>Everyone else answers the question or fills in the blank by passing one White Card, face down, to the Card Czar.</p>

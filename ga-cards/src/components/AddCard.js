@@ -29,7 +29,7 @@ class AddCard extends Component{
 
   render(){
     return(
-      <section className="container-fluid">
+      <section className="container-fluid addCard">
         <div className="row">
           <form onSubmit={this.handleSubmit.bind(this)} name="add-card" id="add-card">
             <input type="text"

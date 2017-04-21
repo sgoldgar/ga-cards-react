@@ -29,7 +29,7 @@ class Home extends Component{
           <div className="flip-container" ontouchstart="this.classList.toggle('hover');">
             <div className="flipper">
               <div className="card front">
-
+                <img src="http://i.imgur.com/hd018EV.gif" alt="sanic"/>
               </div>
               <div className="card back">
                 <h4 className="card-title">{card.makeCard}</h4>
