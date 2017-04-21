@@ -26,9 +26,16 @@ class Home extends Component{
     const allCards = this.state.cards.map((card)=>{
       return(
         <div key={card.key} className="col-sm-6 col-md-4 col-lg-4">
-          <div className="card">
-            <h4 className="card-title">{card.makeCard}</h4>
-            <h6>Cards Against Assembly</h6>
+          <div className="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div className="flipper">
+              <div className="card front">
+
+              </div>
+              <div className="card back">
+                <h4 className="card-title">{card.makeCard}</h4>
+                <h6>Cards Against Assembly</h6>
+              </div>
+            </div>
           </div>
         </div>
       )
