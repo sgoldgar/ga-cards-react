@@ -36,16 +36,17 @@ h1 {
 }
 
 .about{
-  margin-left: 30em;
-  max-width: 30em;
+  margin: 0 20%;
+  padding-left: 12%;
 }
 
 .addCard{
-  margin-left: 28em;
+  margin: 0 37%;
 }
 
-.add-card input{
+#add-card input{
   border: 1px solid black;
+  padding: 2%;
 }
 
 /*Nav Bar*/
