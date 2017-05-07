@@ -31,8 +31,7 @@ h1 {
 }
 
 .row {
-  margin-left: 5em;
-  margin-top: 5%;
+  margin: 5% auto;
   width: 100%;
 }
 
@@ -147,8 +146,9 @@ footer p {
 	}
 
 .flip-container, .front {
-  min-height:30rem;
+  height:30rem;
   width: 300px;
+  margin: 5% auto;
 }
 
 /* flip speed goes here */
