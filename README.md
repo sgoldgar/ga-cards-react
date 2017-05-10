@@ -1,5 +1,9 @@
 # Cards Against Assembly
 
+Created React App for Cards Against Humanity style game.
+
+--
+
 Let's put those hard earned new skills from this week to work! We'll be using a little bit of everything we learned so far to make a real-time, data driven application with React and Firebase. 
 
 ---
